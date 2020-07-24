@@ -34,7 +34,9 @@ class RouteServiceProvider extends ServiceProvider
 
         parent::boot();
     }
-
+    
+    public const REDIRECT = '/manager/index';
+    
     /**
      * Define the routes for the application.
      *
